@@ -1,8 +1,8 @@
 package com.qa.pages;
 
+import static com.qa.driver.DriverManager.getDriver;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import static com.qa.driver.DriverManager.*;
 import com.qa.driver.DriverManager;
 import com.qa.enums.WaitStrategy;
 import com.qa.factories.ExplicitWaitFactory;
