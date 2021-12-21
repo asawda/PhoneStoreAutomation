@@ -2,23 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16292" started-at="2021-12-21T10:07:41 IST" finished-at="2021-12-21T10:07:57 IST">
+  <suite name="Suite" duration-ms="17711" started-at="2021-12-21T11:57:02 IST" finished-at="2021-12-21T11:57:20 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16292" started-at="2021-12-21T10:07:41 IST" finished-at="2021-12-21T10:07:57 IST">
+    <test name="Test" duration-ms="17711" started-at="2021-12-21T11:57:02 IST" finished-at="2021-12-21T11:57:20 IST">
       <class name="com.qa.tests.BholaPhonesTest">
-        <test-method status="PASS" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="setup" is-config="true" duration-ms="8329" started-at="2021-12-21T10:07:41 IST" finished-at="2021-12-21T10:07:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[Ljava.lang.Object;@2e3fc542]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="setup" is-config="true" duration-ms="6961" started-at="2021-12-21T10:07:41 IST" finished-at="2021-12-21T10:07:48 IST">
+        <test-method status="PASS" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="setup" is-config="true" duration-ms="9078" started-at="2021-12-21T11:57:02 IST" finished-at="2021-12-21T11:57:11 IST">
           <params>
             <param index="0">
               <value>
@@ -29,7 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="signInNegative(java.lang.String)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="signInNegative" duration-ms="4721" started-at="2021-12-21T10:07:48 IST" description="Validate user is able to do end to end shopping flow either for moisturizers or sunscreens based on the current temperature" finished-at="2021-12-21T10:07:53 IST">
+        <test-method status="PASS" signature="setup([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="setup" is-config="true" duration-ms="9775" started-at="2021-12-21T11:57:02 IST" finished-at="2021-12-21T11:57:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@2e3fc542]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="signInNegative(java.lang.String)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="signInNegative" duration-ms="4550" started-at="2021-12-21T11:57:11 IST" description="Vaidate user is able to successfully sign in with the given credentials - Failure scenario" finished-at="2021-12-21T11:57:16 IST">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at com.qa.tests.BholaPhonesTest.signInNegative(BholaPhonesTest.java:41)
+at com.qa.tests.BholaPhonesTest.signInNegative(BholaPhonesTest.java:40)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -69,7 +69,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInNegative -->
-        <test-method status="PASS" signature="signInPositive(java.lang.String)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="signInPositive" duration-ms="4154" started-at="2021-12-21T10:07:50 IST" description="Validate user is able to do end to end shopping flow either for moisturizers or sunscreens based on the current temperature" finished-at="2021-12-21T10:07:54 IST">
+        <test-method status="PASS" signature="signInPositive(java.lang.String)[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="signInPositive" duration-ms="3067" started-at="2021-12-21T11:57:12 IST" description="Vaidate user is able to successfully sign in with the given credentials" finished-at="2021-12-21T11:57:15 IST">
           <params>
             <param index="0">
               <value>
@@ -80,11 +80,11 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInPositive -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="teardown" is-config="true" duration-ms="3938" started-at="2021-12-21T10:07:53 IST" finished-at="2021-12-21T10:07:57 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="teardown" is-config="true" duration-ms="4358" started-at="2021-12-21T11:57:15 IST" finished-at="2021-12-21T11:57:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="teardown" is-config="true" duration-ms="3739" started-at="2021-12-21T10:07:54 IST" finished-at="2021-12-21T10:07:57 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.tests.BholaPhonesTest@184f6be2]" name="teardown" is-config="true" duration-ms="3972" started-at="2021-12-21T11:57:16 IST" finished-at="2021-12-21T11:57:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

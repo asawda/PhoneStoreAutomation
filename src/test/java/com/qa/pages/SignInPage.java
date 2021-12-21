@@ -22,6 +22,7 @@ public class SignInPage extends BasePage {
 		sendKeys(textBoxPassword, PropertyUtils.get(ConfigProperties.PASSWORD) ,WaitStrategy.VISIBLE);
 	}
 
+	
 	// This method clicks on Login button in application
 	public static void clickOnLogin() {
 		click(btnLogin,WaitStrategy.CLICKABLE);
