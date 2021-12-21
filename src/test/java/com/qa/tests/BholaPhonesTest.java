@@ -38,5 +38,6 @@ public class BholaPhonesTest extends BaseTest{
 		SignInPage.clickOnLogin();
 	
 		Assert.assertTrue(false);
+		
 	}
 }
